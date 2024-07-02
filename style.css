@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    /* background-image: url('./Screenshot\ 2024-07-02\ 181131.png');
+    background-size: cover;
+    background-position: center; */
+}
+/* h1,h2{
+  color: white;
+  opacity: 2;
+} */
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+  }
+.btn{
+    height:200px;
+    width:200px;
+    border-radius: 20%;
+    border:10px solid black;
+    margin:2.5rem;
+}
+
+.btn-container{
+   display: flex;
+   justify-content: center;
+}
+
+.green{
+
+background-color: #63aac0;    
+}
+.yellow{
+background-color: #f99b45;
+}
+.red{
+background-color: #d95980;
+}
+.blue{
+background-color:#819ff9;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: #66FF00;
+}
